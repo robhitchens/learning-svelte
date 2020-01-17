@@ -15,6 +15,10 @@
     import KeyedEachBlocks from "../4_Logic/KeyedEachBlocks.svelte";
     import AwaitBlocks from "../4_Logic/AwaitBlocks.svelte";
     import DOMEvents from "../5_Events/DOMEvents.svelte";
+    import EventModifiers from "../5_Events/EventModifiers.svelte";
+    import ComponentEvents from "../5_Events/ComponentEvents.svelte";
+    import EventForwarding from "../5_Events/EventForwarding.svelte";
+    import DomEventForwarding from "../5_Events/DomEventForwarding.svelte";
 
     let name = 'world';
 </script>
@@ -36,3 +40,7 @@
 <KeyedEachBlocks/>
 <AwaitBlocks/>
 <DOMEvents/>
+<EventModifiers/>
+<ComponentEvents/>
+<EventForwarding/>
+<DomEventForwarding/>
