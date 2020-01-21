@@ -48,6 +48,7 @@
     import AddingParameters from "../10_Transitions/AddingParameters.svelte";
     import InAndOut from "../10_Transitions/InAndOut.svelte";
     import CustomCSSTransition from "../10_Transitions/CustomCSSTransition.svelte";
+    import CustomJSTransition from "../10_Transitions/CustomJSTransition.svelte";
 
     let name = 'world';
 </script>
@@ -102,3 +103,4 @@
 <AddingParameters/>
 <InAndOut/>-->
 <CustomCSSTransition/>
+<CustomJSTransition/>
