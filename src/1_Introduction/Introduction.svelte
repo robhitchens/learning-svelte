@@ -32,6 +32,7 @@
     import Dimensions from "../6_Bindings/Dimensions.svelte";
     import This from "../6_Bindings/This.svelte";
     import ComponentBindings from "../6_Bindings/ComponentBindings.svelte";
+    import OnMount from "../7_Lifecycle/OnMount.svelte";
 
     let name = 'world';
 </script>
@@ -70,3 +71,4 @@
 <Dimensions/>
 <This/>
 <ComponentBindings/>
+<OnMount/>
