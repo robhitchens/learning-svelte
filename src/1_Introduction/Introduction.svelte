@@ -42,6 +42,7 @@
     import DerivedStore from "../8_Stores/DerivedStore.svelte";
     import ComponentStore from "../8_Stores/ComponentStore.svelte";
     import StoreBinding from "../8_Stores/StoreBinding.svelte";
+    import Tweened from "../9_Motion/Tweened.svelte";
 
     let name = 'world';
 </script>
@@ -90,3 +91,4 @@
 <DerivedStore/>
 <ComponentStore/>
 <StoreBinding/>
+<Tweened/>
