@@ -44,6 +44,7 @@
     import StoreBinding from "../8_Stores/StoreBinding.svelte";
     import Tweened from "../9_Motion/Tweened.svelte";
     import Spring from "../9_Motion/Spring.svelte";
+    import TheTransitionDirective from "../10_Transitions/TheTransitionDirective.svelte";
 
     let name = 'world';
 </script>
@@ -94,3 +95,4 @@
 <StoreBinding/>
 <Tweened/>
 <Spring/>
+<TheTransitionDirective/>
