@@ -47,6 +47,7 @@
     import TheTransitionDirective from "../10_Transitions/TheTransitionDirective.svelte";
     import AddingParameters from "../10_Transitions/AddingParameters.svelte";
     import InAndOut from "../10_Transitions/InAndOut.svelte";
+    import CustomCSSTransition from "../10_Transitions/CustomCSSTransition.svelte";
 
     let name = 'world';
 </script>
@@ -100,3 +101,4 @@
 <TheTransitionDirective/>
 <AddingParameters/>
 <InAndOut/>
+<CustomCSSTransition/>
