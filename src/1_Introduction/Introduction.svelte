@@ -41,6 +41,7 @@
     import ReadableStore from "../8_Stores/ReadableStore.svelte";
     import DerivedStore from "../8_Stores/DerivedStore.svelte";
     import ComponentStore from "../8_Stores/ComponentStore.svelte";
+    import StoreBinding from "../8_Stores/StoreBinding.svelte";
 
     let name = 'world';
 </script>
@@ -88,3 +89,4 @@
 <ReadableStore/>
 <DerivedStore/>
 <ComponentStore/>
+<StoreBinding/>

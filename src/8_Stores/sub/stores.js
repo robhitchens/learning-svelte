@@ -9,8 +9,15 @@ export const time = readable(null, function start(set){
         clearInterval(interval);
     };
 });
+
 const start = new Date();
 export const elapsed = derived(
     time,
     $time => Math.round(($time - start) / 1000)
+);
+
+export const name = writable('world');
+export const greeting = derived(
+    name,
+    $name => `Hello ${$name}!`
 );
