@@ -29,6 +29,8 @@
     import ContentEditableBindings from "../6_Bindings/ContentEditableBindings.svelte";
     import EachBlockBindings from "../6_Bindings/EachBlockBindings.svelte";
     import MediaElements from "../6_Bindings/MediaElements.svelte";
+    import Dimensions from "../6_Bindings/Dimensions.svelte";
+    import This from "../6_Bindings/This.svelte";
 
     let name = 'world';
 </script>
@@ -64,3 +66,5 @@
 <ContentEditableBindings/>
 <EachBlockBindings/>
 <MediaElements/>
+<Dimensions/>
+<This/>
