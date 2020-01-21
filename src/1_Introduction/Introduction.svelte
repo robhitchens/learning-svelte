@@ -51,6 +51,7 @@
     import CustomJSTransition from "../10_Transitions/CustomJSTransition.svelte";
     import TransitionEvents from "../10_Transitions/TransitionEvents.svelte";
     import LocalTransition from "../10_Transitions/LocalTransition.svelte";
+    import DeferredTransition from "../10_Transitions/DeferredTransition.svelte";
 
     let name = 'world';
 </script>
@@ -108,3 +109,4 @@
 <CustomJSTransition/>
 <TransitionEvents/>
 <LocalTransition/>
+<DeferredTransition/>
