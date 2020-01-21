@@ -37,6 +37,7 @@
     import BeforeAfterUpdate from "../7_Lifecycle/BeforeAfterUpdate.svelte";
     import Tick from "../7_Lifecycle/Tick.svelte";
     import WritableStore from "../8_Stores/WritableStore.svelte";
+    import AutoSubscriptions from "../8_Stores/AutoSubscriptions.svelte";
 
     let name = 'world';
 </script>
@@ -80,3 +81,4 @@
 <BeforeAfterUpdate/>
 <Tick/>
 <WritableStore/>
+<AutoSubscriptions/>
