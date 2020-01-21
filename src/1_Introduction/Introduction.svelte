@@ -36,6 +36,7 @@
     import OnDestroy from "../7_Lifecycle/OnDestroy.svelte";
     import BeforeAfterUpdate from "../7_Lifecycle/BeforeAfterUpdate.svelte";
     import Tick from "../7_Lifecycle/Tick.svelte";
+    import WritableStore from "../8_Stores/WritableStore.svelte";
 
     let name = 'world';
 </script>
@@ -78,3 +79,4 @@
 <OnDestroy/>
 <BeforeAfterUpdate/>
 <Tick/>
+<WritableStore/>
