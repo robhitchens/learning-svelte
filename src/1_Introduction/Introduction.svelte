@@ -43,6 +43,7 @@
     import ComponentStore from "../8_Stores/ComponentStore.svelte";
     import StoreBinding from "../8_Stores/StoreBinding.svelte";
     import Tweened from "../9_Motion/Tweened.svelte";
+    import Spring from "../9_Motion/Spring.svelte";
 
     let name = 'world';
 </script>
@@ -92,3 +93,4 @@
 <ComponentStore/>
 <StoreBinding/>
 <Tweened/>
+<Spring/>
