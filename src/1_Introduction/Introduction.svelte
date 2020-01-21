@@ -31,6 +31,7 @@
     import MediaElements from "../6_Bindings/MediaElements.svelte";
     import Dimensions from "../6_Bindings/Dimensions.svelte";
     import This from "../6_Bindings/This.svelte";
+    import ComponentBindings from "../6_Bindings/ComponentBindings.svelte";
 
     let name = 'world';
 </script>
@@ -68,3 +69,4 @@
 <MediaElements/>
 <Dimensions/>
 <This/>
+<ComponentBindings/>
