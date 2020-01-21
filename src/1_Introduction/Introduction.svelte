@@ -45,6 +45,7 @@
     import Tweened from "../9_Motion/Tweened.svelte";
     import Spring from "../9_Motion/Spring.svelte";
     import TheTransitionDirective from "../10_Transitions/TheTransitionDirective.svelte";
+    import AddingParameters from "../10_Transitions/AddingParameters.svelte";
 
     let name = 'world';
 </script>
@@ -96,3 +97,4 @@
 <Tweened/>
 <Spring/>
 <TheTransitionDirective/>
+<AddingParameters/>
