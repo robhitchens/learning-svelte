@@ -28,6 +28,7 @@
     import SelectMultiple from "../6_Bindings/SelectMultiple.svelte";
     import ContentEditableBindings from "../6_Bindings/ContentEditableBindings.svelte";
     import EachBlockBindings from "../6_Bindings/EachBlockBindings.svelte";
+    import MediaElements from "../6_Bindings/MediaElements.svelte";
 
     let name = 'world';
 </script>
@@ -62,3 +63,4 @@
 <SelectMultiple/>
 <ContentEditableBindings/>
 <EachBlockBindings/>
+<MediaElements/>
