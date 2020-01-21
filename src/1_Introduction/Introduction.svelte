@@ -53,7 +53,7 @@
 </script>
 <h1>Introduction</h1>
 <p>Hello {name}</p>
-<DynamicAttributes/>
+<!--<DynamicAttributes/>
 <StylingExample/>
 <HTMLTags/>
 <Assignments/>
@@ -100,5 +100,5 @@
 <Spring/>
 <TheTransitionDirective/>
 <AddingParameters/>
-<InAndOut/>
+<InAndOut/>-->
 <CustomCSSTransition/>
