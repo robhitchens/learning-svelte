@@ -46,6 +46,7 @@
     import Spring from "../9_Motion/Spring.svelte";
     import TheTransitionDirective from "../10_Transitions/TheTransitionDirective.svelte";
     import AddingParameters from "../10_Transitions/AddingParameters.svelte";
+    import InAndOut from "../10_Transitions/InAndOut.svelte";
 
     let name = 'world';
 </script>
@@ -98,3 +99,4 @@
 <Spring/>
 <TheTransitionDirective/>
 <AddingParameters/>
+<InAndOut/>
