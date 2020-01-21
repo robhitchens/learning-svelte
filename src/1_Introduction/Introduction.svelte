@@ -40,6 +40,7 @@
     import AutoSubscriptions from "../8_Stores/AutoSubscriptions.svelte";
     import ReadableStore from "../8_Stores/ReadableStore.svelte";
     import DerivedStore from "../8_Stores/DerivedStore.svelte";
+    import ComponentStore from "../8_Stores/ComponentStore.svelte";
 
     let name = 'world';
 </script>
@@ -86,3 +87,4 @@
 <AutoSubscriptions/>
 <ReadableStore/>
 <DerivedStore/>
+<ComponentStore/>
