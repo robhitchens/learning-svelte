@@ -34,6 +34,7 @@
     import ComponentBindings from "../6_Bindings/ComponentBindings.svelte";
     import OnMount from "../7_Lifecycle/OnMount.svelte";
     import OnDestroy from "../7_Lifecycle/OnDestroy.svelte";
+    import BeforeAfterUpdate from "../7_Lifecycle/BeforeAfterUpdate.svelte";
 
     let name = 'world';
 </script>
@@ -74,3 +75,4 @@
 <ComponentBindings/>
 <OnMount/>
 <OnDestroy/>
+<BeforeAfterUpdate/>
