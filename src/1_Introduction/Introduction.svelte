@@ -38,6 +38,7 @@
     import Tick from "../7_Lifecycle/Tick.svelte";
     import WritableStore from "../8_Stores/WritableStore.svelte";
     import AutoSubscriptions from "../8_Stores/AutoSubscriptions.svelte";
+    import ReadableStore from "../8_Stores/ReadableStore.svelte";
 
     let name = 'world';
 </script>
@@ -82,3 +83,4 @@
 <Tick/>
 <WritableStore/>
 <AutoSubscriptions/>
+<ReadableStore/>
