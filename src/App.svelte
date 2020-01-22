@@ -10,6 +10,7 @@
 	import ActionsAddingParameters from "./12_Actions/ActionsAddingParameters.svelte";
 	import ClassDirective from "./13_Classes/ClassDirective.svelte";
 	import ShorthandClassDirective from "./13_Classes/ShorthandClassDirective.svelte";
+	import Slots from "./14_ComponentComposition/Slots.svelte";
 
 	export let name;
 </script>
@@ -87,7 +88,7 @@
 <TheTransitionDirective/>
 <AddingParameters/>
 <InAndOut/>-->
-<CustomCSSTransition/>
+<!--<CustomCSSTransition/>
 <CustomJSTransition/>
 <TransitionEvents/>
 <LocalTransition/>
@@ -96,4 +97,5 @@
 <UseDirective/>
 <ActionsAddingParameters/>
 <ClassDirective/>
-<ShorthandClassDirective/>
+<ShorthandClassDirective/>-->
+<Slots/>
