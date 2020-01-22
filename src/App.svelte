@@ -23,6 +23,7 @@
 	import SvelteHead from "./16_SpecialElements/SvelteHead.svelte";
 	import SvelteOptions from "./16_SpecialElements/SvelteOptions.svelte";
 	import SharingCode from "./17_ModuleContext/SharingCode.svelte";
+	import Exports from "./17_ModuleContext/Exports.svelte";
 
 	export let name;
 </script>
@@ -123,4 +124,6 @@
 <!--<SvelteBody/>-->
 <SvelteHead/>
 <SvelteOptions/>
-<SharingCode/>
+<!--
+<SharingCode/>-->
+<Exports/>
