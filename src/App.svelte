@@ -17,6 +17,8 @@
 	import SetContextGetContext from "./15_ContextAPI/SetContextGetContext.svelte";
 	import SvelteSelf from "./16_SpecialElements/SvelteSelf.svelte";
 	import SvelteComponent from "./16_SpecialElements/SvelteComponent.svelte";
+	import SvelteWindow from "./16_SpecialElements/SvelteWindow.svelte";
+	import SvelteWindowBindings from "./16_SpecialElements/SvelteWindowBindings.svelte";
 
 	export let name;
 </script>
@@ -111,4 +113,6 @@
 <SlotProps/>-->
 <!--<SetContextGetContext/>-->
 <!--<SvelteSelf/>-->
-<SvelteComponent/>
+<!--<SvelteComponent/>-->
+<!--<SvelteWindow/>-->
+<SvelteWindowBindings/>
