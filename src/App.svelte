@@ -5,6 +5,7 @@
 	import TransitionEvents from "./10_Transitions/TransitionEvents.svelte";
 	import LocalTransition from "./10_Transitions/LocalTransition.svelte";
 	import DeferredTransition from "./10_Transitions/DeferredTransition.svelte";
+	import AnimateDirective from "./11_Animations/AnimateDirective.svelte";
 
 	export let name;
 </script>
@@ -87,3 +88,4 @@
 <TransitionEvents/>
 <LocalTransition/>
 <DeferredTransition/>
+<AnimateDirective/>
