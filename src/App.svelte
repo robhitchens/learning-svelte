@@ -6,6 +6,7 @@
 	import LocalTransition from "./10_Transitions/LocalTransition.svelte";
 	import DeferredTransition from "./10_Transitions/DeferredTransition.svelte";
 	import AnimateDirective from "./11_Animations/AnimateDirective.svelte";
+	import UseDirective from "./12_Actions/UseDirective.svelte";
 
 	export let name;
 </script>
@@ -89,3 +90,4 @@
 <LocalTransition/>
 <DeferredTransition/>
 <AnimateDirective/>
+<UseDirective/>
