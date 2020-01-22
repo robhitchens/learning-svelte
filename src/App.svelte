@@ -13,6 +13,7 @@
 	import Slots from "./14_ComponentComposition/Slots.svelte";
 	import SlotFallbacks from "./14_ComponentComposition/SlotFallbacks.svelte";
 	import NamedSlots from "./14_ComponentComposition/NamedSlots.svelte";
+	import SlotProps from "./14_ComponentComposition/SlotProps.svelte";
 
 	export let name;
 </script>
@@ -103,3 +104,4 @@
 <Slots/>
 <SlotFallbacks/>
 <NamedSlots/>
+<SlotProps/>
