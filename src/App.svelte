@@ -7,6 +7,7 @@
 	import DeferredTransition from "./10_Transitions/DeferredTransition.svelte";
 	import AnimateDirective from "./11_Animations/AnimateDirective.svelte";
 	import UseDirective from "./12_Actions/UseDirective.svelte";
+	import ActionsAddingParameters from "./12_Actions/ActionsAddingParameters.svelte";
 
 	export let name;
 </script>
@@ -91,3 +92,4 @@
 <DeferredTransition/>
 <AnimateDirective/>
 <UseDirective/>
+<ActionsAddingParameters/>
