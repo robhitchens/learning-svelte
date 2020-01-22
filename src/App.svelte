@@ -21,6 +21,7 @@
 	import SvelteWindowBindings from "./16_SpecialElements/SvelteWindowBindings.svelte";
 	import SvelteBody from "./16_SpecialElements/SvelteBody.svelte";
 	import SvelteHead from "./16_SpecialElements/SvelteHead.svelte";
+	import SvelteOptions from "./16_SpecialElements/SvelteOptions.svelte";
 
 	export let name;
 </script>
@@ -120,3 +121,4 @@
 <!--<SvelteWindowBindings/>-->
 <!--<SvelteBody/>-->
 <SvelteHead/>
+<SvelteOptions/>
