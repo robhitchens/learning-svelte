@@ -1,14 +1,13 @@
 <script>
 	import Introduction from "./1_Introduction/Introduction.svelte";
+	import CustomCSSTransition from "./10_Transitions/CustomCSSTransition.svelte";
+	import CustomJSTransition from "./10_Transitions/CustomJSTransition.svelte";
+	import TransitionEvents from "./10_Transitions/TransitionEvents.svelte";
+	import LocalTransition from "./10_Transitions/LocalTransition.svelte";
+	import DeferredTransition from "./10_Transitions/DeferredTransition.svelte";
+
 	export let name;
 </script>
-
-<main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
-</main>
-<Introduction/>
-
 <style>
 	main {
 		text-align: center;
@@ -30,3 +29,61 @@
 		}
 	}
 </style>
+<main>
+	<h1>Hello {name}!</h1>
+	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+</main>
+<Introduction/>
+<!--<DynamicAttributes/>
+<StylingExample/>
+<HTMLTags/>
+<Assignments/>
+<Declarations/>
+<Statements/>
+<UpdatingArraysAndObjects/>
+<DeclaringProps/>
+<SpreadProps/>
+<IfBlocks/>
+<ElseBlocks/>
+<ElseIfBlocks/>
+<EachBlocks/>
+<KeyedEachBlocks/>
+<AwaitBlocks/>
+<DOMEvents/>
+<EventModifiers/>
+<ComponentEvents/>
+<EventForwarding/>
+<DomEventForwarding/>
+<TextInputs/>
+<NumericInputs/>
+<CheckboxInputs/>
+<GroupInputs/>
+<TextareaInputs/>
+<SelectBindings/>
+<SelectMultiple/>
+<ContentEditableBindings/>
+<EachBlockBindings/>
+<MediaElements/>
+<Dimensions/>
+<This/>
+<ComponentBindings/>
+<OnMount/>
+<OnDestroy/>
+<BeforeAfterUpdate/>
+<Tick/>
+<WritableStore/>
+<AutoSubscriptions/>
+<ReadableStore/>
+<DerivedStore/>
+<ComponentStore/>
+<StoreBinding/>
+<Tweened/>
+<Spring/>
+<TheTransitionDirective/>
+<AddingParameters/>
+<InAndOut/>-->
+<CustomCSSTransition/>
+<CustomJSTransition/>
+<TransitionEvents/>
+<LocalTransition/>
+<DeferredTransition/>
