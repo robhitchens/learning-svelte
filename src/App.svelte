@@ -24,6 +24,7 @@
 	import SvelteOptions from "./16_SpecialElements/SvelteOptions.svelte";
 	import SharingCode from "./17_ModuleContext/SharingCode.svelte";
 	import Exports from "./17_ModuleContext/Exports.svelte";
+	import DebugTag from "./18_Debugging/DebugTag.svelte";
 
 	export let name;
 </script>
@@ -123,7 +124,8 @@
 <!--<SvelteWindowBindings/>-->
 <!--<SvelteBody/>-->
 <SvelteHead/>
-<SvelteOptions/>
+<!--<SvelteOptions/>-->
 <!--
 <SharingCode/>-->
-<Exports/>
+<!--<Exports/>-->
+<DebugTag/>
