@@ -12,6 +12,7 @@
 	import ShorthandClassDirective from "./13_Classes/ShorthandClassDirective.svelte";
 	import Slots from "./14_ComponentComposition/Slots.svelte";
 	import SlotFallbacks from "./14_ComponentComposition/SlotFallbacks.svelte";
+	import NamedSlots from "./14_ComponentComposition/NamedSlots.svelte";
 
 	export let name;
 </script>
@@ -101,3 +102,4 @@
 <ShorthandClassDirective/>-->
 <Slots/>
 <SlotFallbacks/>
+<NamedSlots/>
