@@ -16,6 +16,7 @@
 	import SlotProps from "./14_ComponentComposition/SlotProps.svelte";
 	import SetContextGetContext from "./15_ContextAPI/SetContextGetContext.svelte";
 	import SvelteSelf from "./16_SpecialElements/SvelteSelf.svelte";
+	import SvelteComponent from "./16_SpecialElements/SvelteComponent.svelte";
 
 	export let name;
 </script>
@@ -109,4 +110,5 @@
 <NamedSlots/>
 <SlotProps/>-->
 <!--<SetContextGetContext/>-->
-<SvelteSelf/>
+<!--<SvelteSelf/>-->
+<SvelteComponent/>
