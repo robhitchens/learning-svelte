@@ -9,6 +9,7 @@
 	import UseDirective from "./12_Actions/UseDirective.svelte";
 	import ActionsAddingParameters from "./12_Actions/ActionsAddingParameters.svelte";
 	import ClassDirective from "./13_Classes/ClassDirective.svelte";
+	import ShorthandClassDirective from "./13_Classes/ShorthandClassDirective.svelte";
 
 	export let name;
 </script>
@@ -95,3 +96,4 @@
 <UseDirective/>
 <ActionsAddingParameters/>
 <ClassDirective/>
+<ShorthandClassDirective/>
