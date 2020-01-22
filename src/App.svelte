@@ -8,7 +8,7 @@
 	import AnimateDirective from "./11_Animations/AnimateDirective.svelte";
 	import UseDirective from "./12_Actions/UseDirective.svelte";
 	import ActionsAddingParameters from "./12_Actions/ActionsAddingParameters.svelte";
-	import ClassDirective from "./12_Actions/ClassDirective.svelte";
+	import ClassDirective from "./13_Classes/ClassDirective.svelte";
 
 	export let name;
 </script>
